@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item"><a href="home.html">Home</a></div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item">Contact Us</div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Location</h2>
+        <p>
+          21618 Justice Ave. <br />
+          Wabasso, MN 56293
+        </p>
+        <p><b>Phone:</b> 507-637-7271</p>
+        <p><b>Email:</b> P&Bsweets@gmail.com</p>
+      </div>
+
+      <div class="sidebar-two">
+        <h2>Hours of Operation</h2>
+        <p>
+          <b>Mon-Fri:</b> 7am - 8pm<br />
+          <b>Sat:</b> 10pm - 8pm
+        </p>
+      </div>
+    </div>
+
+   
+    <style>
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+      }
+
+      form div + div {
+        margin-top: 1em;
+      }
+
+      label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+
+      input,
+      textarea {
+        /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+        font: 1em sans-serif;
+
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+
+        /* Match form field borders */
+        border: 1px solid #999;
+      }
+
+      input:focus,
+      textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+      }
+
+      textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
+
+        /* Provide space to type some text */
+        height: 5em;
+      }
+
+      .button {
+        /* Align buttons with the text fields */
+        padding-left: 90px; /* same size as the label elements */
+      }
+
+      button {
+        /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+        margin-left: 0.5em;
+      }
+    </style>
+  </body>
+</html>
