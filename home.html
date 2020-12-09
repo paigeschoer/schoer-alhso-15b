@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to P&B Sweets!</h2>
+        <p>
+          P&B Sweets is a bakery located in Wabasso, MN. At this bakery we make
+          all kinds of sweets and goodies! We have everything from cookies to
+          wedding cakes but we LOVE making our special cupcakes! We make all
+          different kinds of flavors of cupcakes and try new recipes and ideas
+          to make all of our cupcakes special.
+        </p>
+        <p>
+          You can either come to the store an dorder in person, or you can order
+          our baked goods online and we will ship them to you when you want
+          them. We never want you to worry about getting the right cakes or
+          goods for any event, so we will do our best in giving you what you
+          want.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://cdn.glitch.com/57df1cfa-78db-45a9-af7b-a2bc3a5ad889%2Flogo.png?v=1606522089814"
+        />
+        <div>
+          <ul>
+            <li>Cakes</li>
+            <li>Cupcakes</li>
+            <li>Sweets</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Offer 1</h4>
+        <p>
+          If you buy from our store at least once a week you will get 5 free
+          samples or slices of anything you want.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Special Offer 2</h4>
+        <p>
+          If you order for a wedding or your kids birthday party you can get up
+          to 30% off your full order.
+        </p>
+        <button>Learn More</button>
+      </div>
+    
+    </div>
+
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
